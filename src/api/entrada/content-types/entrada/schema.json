@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entradas",
+  "info": {
+    "singularName": "entrada",
+    "pluralName": "entradas",
+    "displayName": "Entradas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "licencia": {
+      "type": "string",
+      "required": true
+    },
+    "marcaAuto": {
+      "type": "string",
+      "required": true
+    },
+    "modeloAuto": {
+      "type": "string",
+      "required": true
+    },
+    "matriculaAuto": {
+      "type": "string",
+      "required": true
+    },
+    "destino": {
+      "type": "string",
+      "required": true
+    },
+    "direccion": {
+      "type": "string",
+      "required": true
+    },
+    "urnas": {
+      "type": "biginteger",
+      "required": true
+    },
+    "mamparas": {
+      "type": "biginteger",
+      "required": true
+    },
+    "extenciones": {
+      "type": "biginteger",
+      "required": true
+    },
+    "lonas": {
+      "type": "biginteger",
+      "required": true
+    },
+    "imgAuto": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imgDestino": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "nombre"
+    }
+  }
+}
