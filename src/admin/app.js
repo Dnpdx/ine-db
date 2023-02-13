@@ -29,6 +29,12 @@ export default {
         "Auth.form.button.login.strapi": "Iniciar sesión",
         "Auth.form.welcome.subtitle": "Inicie sesión en su cuenta",
         "app.components.LeftMenu.navbrand.title": "Panel de control",
+      },
+      en: {
+        "Auth.form.button.login.strapi": "Iniciar sesión",
+        "Auth.form.welcome.subtitle": "Inicie sesión en su cuenta",
+        "app.components.LeftMenu.navbrand.title": "Panel de control",
+        "Auth.form.welcome.title": "Welcome!",
       }
     },
     theme: {
